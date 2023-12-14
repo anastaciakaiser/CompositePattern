@@ -23,14 +23,6 @@ public class Lab1Application {
 	private static ContinuedFractionComposite generateMassiveContinuedFraction(int[] coefs) {
 		ContinuedFractionComposite continuedFraction = new ContinuedFractionComposite();
 
-//		int repetitions = 3;
-//
-//		for (int i = 0; i < repetitions; i++) {
-//			for (int value : coefs) {
-//				continuedFraction.addComponent(new FractionLeaf(value));
-//			}
-//		}
-
 		for (int value : coefs) {
 			continuedFraction.addComponent(new FractionLeaf(value));
 		}
